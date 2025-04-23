@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.post-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h2 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.post-card p {
+    color: #555;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+
+.info-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #b3e5fc;
+    color: #0d47a1;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.info-link:hover {
+    background-color: #81d4fa;
+    color: #063970;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.prev-post,
+.next-post {
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.prev-post {
+    background-color: #ffe0b2;
+    color: #e65100;
+}
+
+.prev-post:hover {
+    background-color: #ffcc80;
+}
+
+.next-post {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+.next-post:hover {
+    background-color: #a5d6a7;
+}
+
+.custom-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #2c3e50;
+}
+
+.card-body {
+    font-size: 1rem;
+    color: #4f4f4f;
+    line-height: 1.6;
+}
