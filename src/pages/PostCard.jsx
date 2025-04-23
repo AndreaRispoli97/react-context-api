@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 
-function PostDetails() {
+function PostCard() {
 
     const navigate = useNavigate()
     const [prevId, setPrevId] = useState(0)
@@ -45,4 +45,4 @@ function PostDetails() {
 }
 
 
-export default PostDetails
+export default PostCard
